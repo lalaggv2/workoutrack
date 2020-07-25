@@ -11,16 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lalaggv2/workoutrack.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lalaggv2/workoutrack/issues"
-  },
-  "homepage": "https://github.com/lalaggv2/workoutrack#readme"
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.9.25",
+    "morgan": "1.10.0"
+  }
 }
