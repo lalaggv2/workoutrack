@@ -65,7 +65,13 @@ so that I can have a full picture for y exercise routines.
 ```
 
 ## Screenshots
-![markdown/frontpage.png]markdown\frontpage.PNG
+![markdown/frontpage.png](https://github.com/lalaggv2/workoutrack/blob/master/markdown/frontpage.PNG)
+
+![markdown/frontpage.png](https://github.com/lalaggv2/workoutrack/blob/master/markdown/1.PNG)
+
+![markdown/frontpage.png](https://github.com/lalaggv2/workoutrack/blob/master/markdown/2.PNG)
+
+![markdown/frontpage.png](https://github.com/lalaggv2/workoutrack/blob/master/markdown/3stats.PNG)
 
 ## Questions
 
