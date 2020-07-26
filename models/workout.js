@@ -14,7 +14,8 @@ let workoutSchema = new Schema(
       sets: Number
     }]
   },
-  //add duration calculation
+
+  //add the duration to the calculation
   {
     toJSON: {
       virtuals: true
@@ -28,12 +29,12 @@ let workoutSchema = new Schema(
 
 //fix duration not calcultaing
 workoutSchema.virtual("totalDuration").get(function () {
-  // tally up sum of durations. set default to 0
+  // add up the durations. set default to 0
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
   }, 0);
 });
 
-var Workout = mongoose.model("Workout", workoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 
 module.exports = Workout;

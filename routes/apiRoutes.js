@@ -1,10 +1,6 @@
 const router = require("express").Router();
 const Workout = require("../models/workout");
 
-// router.post("api/workout", (req, res) => {
-//   Workout.create({}).then()
-// });
-
 module.exports = app => {
 
   //getLastWorkout (api.js)
@@ -27,7 +23,7 @@ module.exports = app => {
       .then(dbWorkouts => {
         res.json(dbWorkouts);
       })
-      .catch(er => {
+      .catch(err => {
         res.json(err)
       });
   });
